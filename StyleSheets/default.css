@@ -1,0 +1,64 @@
+.links{
+    font-size:3em;
+	position:fixed;
+    bottom:0px;
+    width:100%;
+    box-sizing: border-box;
+     -webkit-box-sizing:border-box;
+     -moz-box-sizing: border-box;
+     z-index: 9999;
+     background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0px 8px 24px 1px rgba(0, 0, 0, 0.28);
+}
+
+body{
+    overflow: hidden;
+    background-image: url(../Pictures/stars-28.png);
+    background-size:50%;
+    background-repeat: repeat-x;
+}
+.links a{
+    color:#ffffff;
+	text-decoration:none;
+    font-family: roadstore, serif;
+    padding:1em;
+    border-right: white 6px solid;
+
+}
+
+ul li { display: inline; margin:auto}
+
+ul li:first-child{
+    /* padding:.5em */
+    padding:1em;
+    border-left: white 6px solid;
+}
+
+html, body
+{
+width: 100%;
+margin: 0px;
+}
+
+#essay{
+    width:90%;
+    margin:auto;
+    top:20px;
+    font-size:3em;
+    background-color: rgba(172, 106, 106, 0.4);
+    font-family: nasa, monospace;
+    color:white;
+    height:765px;
+    overflow-y: scroll;
+    scrollbar-color: red green;
+    scroll-behavior: smooth;
+    scroll-margin:14em;
+}
+
+#essay h1{
+    text-align: center;
+}
+
+#essay p{
+    text-indent: 2em;
+}
