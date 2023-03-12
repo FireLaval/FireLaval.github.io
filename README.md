@@ -1,3 +1,3 @@
 <body>
-    <script> location.href = '/Pages/Defaults/Home.html'; </script>
+    <script> location.href = '/fasten.html'; </script>
 </body>
